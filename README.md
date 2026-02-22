@@ -3,7 +3,7 @@
 **PulseNote** is a clean, structured Digital Medical Record Management System built using React and Vite. It is designed to simulate how medical reports can be uploaded, processed, structured, and displayed in role-based dashboards for doctors and patients.
 
 🔗 **Live Demo:**
-https://YOUR_VERCEL_LINK_HERE
+[PulseNote](https://pulse-note-seven.vercel.app/)
 
 ---
 
@@ -186,4 +186,4 @@ PulseNote/
 ## 📌 Author
 
 **Suryanshi Singh**
-B.Tech – Computer Science & Engineering
+Computer Science & Engineering
