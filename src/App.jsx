@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import LandingPage from './components/LandingPage'
 import DoctorDashboard from './components/DoctorDashboard'
 import PatientDashboard from './components/PatientDashboard'
-import './App.css'
 
 function App() {
   return (

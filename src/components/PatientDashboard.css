@@ -15,9 +15,42 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.dashboard-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.role-caption {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.dashboard-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .dashboard-header h1 {
   color: #333;
   font-size: 2rem;
+}
+
+.role-switch-btn {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #007bff;
+  border-radius: 6px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.role-switch-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;
 }
 
 .back-btn {
@@ -61,6 +94,77 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.privacy-note {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background-color: #fff7e6;
+  color: #8a5a00;
+  font-size: 0.9rem;
+  border: 1px solid #ffd591;
+}
+
+.report-upload-section {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.report-upload-section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.upload-description {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.upload-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.process-btn {
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s;
+}
+
+.process-btn:disabled {
+  background-color: #9bbcf0;
+  cursor: not-allowed;
+}
+
+.process-btn:not(:disabled):hover {
+  background-color: #0063cc;
+}
+
+.loading-indicator {
+  margin-top: 12px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.error-message {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  background-color: #ffe5e5;
+  color: #a11a1a;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 600px) {
   .patient-dashboard {
     padding: 15px;
@@ -86,6 +190,10 @@
   }
 
   .summary-container {
+    padding: 20px;
+  }
+
+  .report-upload-section {
     padding: 20px;
   }
 }

@@ -1,7 +1,7 @@
 export const patients = [
   {
     id: 1,
-    name: 'John Doe',
+    name: 'Rahul Sharma',
     age: 45,
     gender: 'Male',
     diseases: ['Hypertension', 'Type 2 Diabetes'],
@@ -17,7 +17,7 @@ export const patients = [
   },
   {
     id: 2,
-    name: 'Jane Smith',
+    name: 'Priya Gupta',
     age: 32,
     gender: 'Female',
     diseases: ['Asthma', 'Seasonal Allergies'],
@@ -33,7 +33,7 @@ export const patients = [
   },
   {
     id: 3,
-    name: 'Robert Johnson',
+    name: 'Ramesh Singh',
     age: 58,
     gender: 'Male',
     diseases: ['Arthritis', 'High Cholesterol'],
@@ -49,7 +49,7 @@ export const patients = [
   },
   {
     id: 4,
-    name: 'Emily Davis',
+    name: 'Kavita Patel',
     age: 28,
     gender: 'Female',
     diseases: ['Migraine', 'Anxiety'],
@@ -65,7 +65,7 @@ export const patients = [
   },
   {
     id: 5,
-    name: 'Michael Brown',
+    name: 'Arun Kumar',
     age: 50,
     gender: 'Male',
     diseases: ['COPD', 'Sleep Apnea'],

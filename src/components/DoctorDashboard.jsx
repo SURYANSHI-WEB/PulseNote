@@ -19,10 +19,22 @@ function DoctorDashboard() {
   return (
     <div className="doctor-dashboard">
       <div className="dashboard-header">
-        <h1>Doctor Dashboard</h1>
-        <button className="back-btn" onClick={handleBackToLogin}>
-          Back to Login
-        </button>
+        <div className="dashboard-header-left">
+          <h1>Doctor Dashboard</h1>
+          <p className="role-caption">Viewing as: Doctor (frontend role simulation)</p>
+        </div>
+        <div className="dashboard-header-actions">
+          <button
+            className="role-switch-btn"
+            type="button"
+            onClick={() => navigate('/patient')}
+          >
+            Switch to Patient View
+          </button>
+          <button className="back-btn" onClick={handleBackToLogin}>
+            Back to Landing
+          </button>
+        </div>
       </div>
 
       <div className="dashboard-content">

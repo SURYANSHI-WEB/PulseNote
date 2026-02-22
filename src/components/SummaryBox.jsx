@@ -3,6 +3,8 @@ import './SummaryBox.css'
 function SummaryBox({ patient }) {
   return (
     <div className="summary-box">
+      <h2 className="summary-main-title">Structured Medical Summary</h2>
+
       <div className="summary-section">
         <h3 className="summary-title">Diseases</h3>
         <ul className="summary-list">

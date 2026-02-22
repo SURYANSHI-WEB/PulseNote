@@ -15,9 +15,42 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.dashboard-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .dashboard-header h1 {
   color: #333;
   font-size: 2rem;
+}
+
+.role-caption {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.dashboard-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.role-switch-btn {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #007bff;
+  border-radius: 6px;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.role-switch-btn:hover {
+  background-color: #007bff;
+  color: #ffffff;
 }
 
 .back-btn {

@@ -23,9 +23,6 @@ function PatientCard({ patient, onClick, isExpanded }) {
       {isExpanded && (
         <div className="patient-card-expanded-content">
           <SummaryBox patient={patient} />
-          <button className="view-full-btn">
-            View Full Record
-          </button>
         </div>
       )}
     </div>
